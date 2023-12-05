@@ -1,0 +1,17 @@
+.navbar_list a {
+    text-decoration: none;
+    color: #2E2E2E;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar_list li {
+    list-style-type: none;
+    color: black;
+    padding-right: 10px;
+}
+
+.navbar_list li:last-child {
+    padding-right: 0;
+}
+

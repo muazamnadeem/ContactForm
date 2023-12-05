@@ -1,0 +1,11 @@
+.Contact_us h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.Contact_us p{
+    color: #483e3e;
+    font-size: 12px;
+    width: 70%;
+    
+}

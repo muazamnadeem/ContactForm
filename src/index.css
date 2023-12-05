@@ -1,0 +1,22 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('path/to/lato-regular.woff2') format('woff2'),
+         url('path/to/lato-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('path/to/poppins-regular.woff2') format('woff2'),
+         url('path/to/poppins-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}

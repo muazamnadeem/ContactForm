@@ -1,0 +1,25 @@
+.button {
+    background-color: rgb(80, 48, 48);
+    padding: 15px;
+    border-radius: 4px;
+    border: none;
+    color: aliceblue;
+    cursor: pointer; /* Add cursor style to indicate interactivity */
+    transition: background-color 0.3s ease; /* Add transition effect for smooth color change */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* Add hover styles */
+    &:hover {
+        background-color: rgb(120, 48, 48); /* Darken the color on hover */
+    }
+
+    /* Add animation on click */
+    &:active {
+        transform: translateY(2px); /* Move the button down slightly */
+    }
+}
+svg {
+    font-size: 25px;
+    margin-right: 10px;
+}
